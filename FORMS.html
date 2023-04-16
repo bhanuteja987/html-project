@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms </title>
+</head>
+<body>
+    <div>
+        <h1><b>creating forms</b></h1>
+        <form action="form.php">
+            <!-- <input type="text" placeholder="enter your name"> -->
+            <!-- <label for="student NAME"> -->
+                <!-- <input type="password"> -->
+                <!-- <label for=""></label> -->
+                <!-- First name: -->
+                <!-- <label for="fname">First name</label> -->
+                <!-- <label for="lname">last NAME</label> -->
+            <!-- </label> -->
+            
+            <!-- <label for="STUDENT NAME">ENTER FIRST NAME</label>
+            <input type="text" placeholder="enter student name">
+            <br>
+            <label for="STUDENT ID"> ENTER ID NUMBER</label>
+            <input type="text"> -->
+
+                             <!-- optins students or stafff -->
+            <input type="radio" id="students" name="students" value="students">
+            <label for="students"> student</label>
+            <input type="radio" id="staff" name="staff" value="staff">
+            <label for="staff"> staff</label>
+            <br>
+
+
+                            <!-- first name and last name -->
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"  placeholder="enter your first name" ><br><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" placeholder="enter your last name" ><br><br>
+            <!-- <input type="text"  id="" name="" placeholder=""> -->
+                           
+                      <!-- username and Password -->
+            <label for="username">Username:</label><br>
+            <input type="text" required id="username" name="username" placeholder="username"><br><br>
+            <label for="pwd">Password</label><br>
+            <input type="pwd" id="pwd" required name="pwd" placeholder="password"><br><br>
+            <label for="color">color</label>
+            <input type="color" id="color" name="color" ><br><br>
+
+                      <!-- date -->
+           <label for="birthday">BIRTHDAY</label>
+           <input type="date" id="BIRTHDAY" name="BIRTHDAY"><br><br><br>
+           <input type="datetime-local"><br><br><br>
+           <input type="datetime">
+           <br><br>
+           
+              <!-- email -->
+               <label for="email"></label>
+               <input type="email" id="email" required name="email" value="email"><br><br><br>
+
+
+               <!-- image -->
+               <!-- while adding image we have to use src  tag it means src specifies the url of the image -->
+               <label for="image"></label>
+               <input type="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCF9o6cig2APWWGbTEO9dN1vWVnBZUY9KPgoT_iWzUjA&s" alt="malla reddy" width="720px" height="720px"><br><br>
+               
+               <input type="image" src="blob:https://web.whatsapp.com/5a04bf6f-b244-450d-bb44-04f768d8bb76" alt="malla reddy" width="72px" height="72px"><br><br><br>
+               
+                        <!-- files uploding  -->
+                <label for="myfiles">Select a file</label>        
+                <input type="file" id="myfiles" name="myfiles">
+                
+                
+                <!-- month and year -->
+                
+                <label for="year">enter month and year</label>
+                <input type="month" id="year" name="year">
+                
+
+                             <!-- phone NUMBER -->
+                             <!-- pattern -->
+                <label for="NUMBER">enter mobile number</label>             
+                <input type="number" id="NUMBER" required name="NUMBER" pattern="[0-9] {10}"><br><br><br>
+                <label for="range">enter the roll number</label>
+                <input type="range" id="range" name="range" min="22N31A6901" max="22N31A6964" ><br><br><br>
+                <label for="gsearch">Google</label>
+                <input type="search" id="gsearch" name="gsearch" ><br><br><br>
+
+                    
+                           <!-- time -->
+
+
+                <label for="time"> enter time</label>           
+                <input type="time" id="time" name="time" >
+                <input type="submit" value="submit"><br><br><br>
+
+
+
+                         <!-- url  -->
+                <label for="url">enter the url</label>
+                <input type="url" id="url" name="url"><br><br><br>
+
+                      <!-- text area  -->
+                 <label for="description">description</label>
+                <textarea name="description" id="description" required cols="5" rows="5"></textarea><br>
+                       
+
+                     <!-- select and options -->
+                <select name="car" id="car">
+                    <option value="no-car">select car</option>
+                 <option value="tata">tata taxi</option>
+                 <option value="tata2">tata renault</option>
+                 <option value="tata2">tata nano </option>
+                </select>
+                 
+
+                         <!-- youtube video -->
+
+
+
+                 <div>
+                    
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BsDoLVMnmZs"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                 </div>
+<div>
+    <!-- <iframe src="http://www.google.com" frameborder="0"></iframe> -->
+    <iframe src="http://www.bing.com" frameborder="0" width="360px"></iframe>
+</div>
+                <input type="reset" >
+                <input type="submit" value="submit">
+            <input type="reset"><br><br><br>
+                <br><br><br>
+            <!-- <input type="submit" value="submit"><br><br> -->
+            <!-- <input type="reset"><br> -->
+        </form>
+    </div>
+</body>
+</html>
